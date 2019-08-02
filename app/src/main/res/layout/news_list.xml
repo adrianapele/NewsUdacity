@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingStart="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:textAlignment="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="@string/title" />
+
+    <TextView
+        android:id="@+id/author_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_text_view"
+        android:gravity="top"
+        android:paddingTop="8dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textSize="16sp"
+        tools:text="@string/author" />
+
+    <TextView
+        android:id="@+id/date_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/author_text_view"
+        android:gravity="top"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textSize="16sp"
+        tools:text="@string/date" />
+
+    <TextView
+        android:id="@+id/topic_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date_text_view"
+        android:gravity="top"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textSize="16sp"
+        tools:text="@string/topic" />
+
+    <TextView
+        android:id="@+id/URL_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topic_text_view"
+        android:gravity="top"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textSize="16sp"
+        tools:text="@string/url" />
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="message_to_wait">Please Wait. Loading...</string>
+    <string name="no_news_found">No news found</string>
+    <string name="no_internet_message">You don\'t have internet access. Please come back after you connected your device to the internet</string>
+    <string name="title">Title</string>
+    <string name="author">Author</string>
+    <string name="date">Date</string>
+    <string name="topic">Topic</string>
+    <string name="url">URL</string>
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Settings</string>
+
+    <string name="settings_from_date_label">Publications From Date</string>
+    <string name="settings_from_date_key" translatable="false">publications_from_date</string>
+    <string name="settings_from_date_default" translatable="false">2014-01-01</string>
+    <string name="settings_from_date_value" translatable="false">2018-06-06</string>
+
+    <string name="settings_topic_label">Topic</string>
+    <string name="settings_topic_key" translatable="false">topic_name</string>
+    <string name="settings_topic_default" translatable="false">debate</string>
+
+</resources>
